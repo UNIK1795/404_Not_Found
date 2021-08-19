@@ -82,9 +82,18 @@ img {
     padding: 2rem 6rem;
 }
 
-.main__footer p {
+.main__footer p, .main__footer p a {
     color: var(--gray-3);
     font-size: .75rem;
+}
+
+.main__footer p a {
+    text-decoration: none;
+}
+
+.main__footer p a:hover {
+    color: var(--gray-3);
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
